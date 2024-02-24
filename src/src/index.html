@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <app-root></app-root>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .bg-image {
+            /* The image used */
+            background-image: url("../assets/final.jpg");
+
+            /* Add the blur effect */
+            filter: blur(1px);
+            -webkit-filter: blur(1px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* Position text in the middle of the page/image */
+        .bg-text {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: rgb(236, 241, 231);
+            font-weight: bold;
+            border: 3px solid #0e0d0d;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 60%;
+            padding: 20px;
+            text-align: right;
+            scroll-behavior: smooth;
+
+        }
+
+        .img {
+            color: rgb(219, 87, 11);
+        }
+
+        .custom-btn-btn {
+            background: #0e0d0d;
+            color: antiquewhite
+        }
+
+
+        .avatar {
+            vertical-align: left;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        ------------------------------------------------------ ul li {
+            list-style: none;
+        }
+
+        ul li a {
+            text-decoration: dotted;
+        }
+        
+
+        ul {
+            display: flex;
+            justify-content: flex-start;
+            gap: 20px;
+            background-color: seagreen;
+            height: 30px;
+        }
+
+        a {
+            line-height: 40px;
+            color: white;
+            margin: 0 20px;
+            padding: 10px 20px;
+        }
+        .color{
+     color: brown;
+}
+        
+
+        .active {
+            color: #0e0d0d;
+            position: sticky;
+            
+            focus{
+                background-color: #0e0d0d;
+            }
+        }
+       
+    </style>
+
+<body>
+
+
+
+    <div class="bg-image"></div>
+
+    <div class="bg-text" bg-color="blue">
+        <b>
+            <marquee>
+                <h1>MY PROFILE &#129505; &#128523;</h1>
+        </b> </marquee>
+
+        <div>
+            <h1 style="font-size:50px">HELLO IT'S ME DINESH KUMAR</h1>
+        </div>
+
+        <p>FULL STACK DEVELOPER</p>
+        <div class="img">
+            <h3>here is myresume &#128071;</h3>
+            <a href="profile/src/assets/okay.png" download="dinesh" class="custom-btn-btn">DOWNLOAD</a>
+            <img src="../assets/avatar.jpg" alt="Avatar" class="avatar">
+        </div>
+        </a>
+
+
+
+
+
+</html>
+
+</body>
+
+</html>
